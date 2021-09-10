@@ -1,261 +1,510 @@
 body {
-    font-family: 'Raleway', sans-serif;
-    margin: 0px;
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
 }
 
-header {    
-    padding: 50px;
-    padding-bottom: 0px;
+header {
+  padding: 50px;
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
 
+header h1 {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+header p {
+  margin-bottom: 25px;
+}
 main {
-    padding: 50px;
-    padding-top: 0px;
+  padding: 50px;
+  padding-top: 0px;
 }
 
+.reserLogo {
+  padding-top: 50px;
+  vertical-align: top;
+  position: relative;
+  bottom: 10px;
+}
+.logoS {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 footer {
-    background-color: #F2F2F2;
-    padding: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    align-content: flex-start;
+  background-color: #f2f2f2;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
 }
 
-.navBar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
+/* .navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+} */
 
 .navBarItem {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    }
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 96px;
+  right: 80px;
+}
 
-    .navA {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 0;
-    }
+.navA {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  text-decoration: none;
+  color: black;
+  padding-top: 50px;
+}
 
-    .research {
-        display: inline-block;
-        align-items: center;
-        border-radius: 20px;
-        vertical-align: middle;      
-        border-top: #F2F2F2 1px solid;
-        border-bottom: #F2F2F2 1px solid;
+.navAH {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  text-decoration: none;
+  color: #80b2fe;
+  border-top: #0065fc 2px solid;
+  padding-top: 50px;
+}
 
-    }
-    .logoSearch {
-        width: 13px;
-        background-color: #F2F2F2;
-        display: inline;
-        vertical-align: middle;     
-        padding: 10px; 
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-    }
-    .input {
-        display: inline-block;
-        border-width: 0px;
-    }
-    .rechercher {
-        background-color: #0065FC;
-        display: inline;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        padding: 10px;
-        color: white;
-    }
+.navAS {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  text-decoration: none;
+  color: #0065fc;
+  padding-top: 50px;
+}
 
-     .filterTitle {
-        display: inline-block;
-    } 
-    .filterDiv {
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        display: inline-block;
-        box-shadow: inset 0px 0px 0px 2px #D9D9D9;
-        margin-left: 30px;
+.research {
+  display: inline-block;
+  align-items: center;
+  border-radius: 20px;
+  vertical-align: middle;
+  margin-bottom: 32px;
+  max-height: 40px;
+  box-shadow: inset 0px 0px 0px 1px #f2f2f2;
+}
+.logoSearch {
+  width: 13px;
+  background-color: #f2f2f2;
+  display: inline;
+  vertical-align: middle;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.input {
+  display: inline-block;
+  border-width: 0px;
+}
+.rechercher {
+  background-color: #0065fc;
+  display: inline;
+  position: relative;
+  bottom: 1px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 11px;
+  color: white;
+  vertical-align: middle;
+  border: 0px;
+}
+.filterGroup {
+  margin-bottom: 30px;
+}
+.filterTitle {
+  display: inline-block;
+}
+.filterDiv {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: inline-block;
+  box-shadow: inset 0px 0px 0px 2px #d9d9d9;
+  margin-left: 30px;
+}
+.filterDiv:hover,
+.pFilter:hover {
+  color: #0065fc;
+  border: #deebff;
+}
+.filterDiv:hover {
+  color: #0065fc;
+  box-shadow: inset 0px 0px 0px 2px #deebff;
+}
+.iconFilter {
+  height: 17px;
+  background-color: #deebff;
+  display: inline;
+  vertical-align: middle;
+  padding: 14px;
+  border-radius: 20px;
+  fill: #0065fc;
+  display: inline-block;
+  margin-right: 0px;
+  position: relative;
+  right: 19px;
+}
+.pFilter {
+  display: inline-block;
+  margin: 0px;
+  margin-right: 0px;
+  position: relative;
+  right: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.logoInformation {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  border: solid 1px #f2f2f2;
+  border-radius: 24px;
+  padding: 5px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.infoP {
+  display: inline-block;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.hebMarseille {
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  max-width: 800px;
+  vertical-align: top;
+  max-height: 640px;
+}
+.star {
+  width: 16px;
+}
+.chart {
+  width: 25px;
+}
+.lesP {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.flexHeb {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.cardHeb {
+  background-color: white;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 20px;
+  width: 236px;
+  margin-bottom: 30px;
 
-    }
-    .iconFilter {
-        height: 17px;
-        background-color: #DEEBFF;
-        display: inline;
-        vertical-align: middle;     
-        padding: 14px; 
-        border-radius: 20px;
-        fill: #0065FC;
-        display: inline-block;
-        margin-right: 0px;
-        position: relative;
-        right: 19px;
-
-    }
-    .pFilter {
-        display: inline-block;
-        margin: 0px;
-        margin-right: 0px;
-        position: relative;
-        right: 16px;
-        font-weight: bold;
-        vertical-align: middle;     
-    }
-    .logoInformation {
-        height: 12px;
-        width: 12px;
-        display: inline-block;
-        border: solid 1px #F2F2F2;
-        border-radius: 24px;
-        padding: 5px;
-        vertical-align: middle;
-        margin-right: 10px;
-    }
-    .infoP {
-        display: inline-block;
-    }
-    .section {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .hebMarseille {
-        background-color: #F2F2F2;
-        padding: 30px;
-        border-radius: 20px;
-        display: inline-block;
-        max-width: 800px;
-        vertical-align: top;
-        max-height: 640px;
-    }
-    .star {
-        width: 16px;
-    }
-    .chart {
-        width: 25px;
-    }
-    .lesP {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-    .flexHeb {
-        display: flex;
-        flex-direction: row;
-        flex-wrap:wrap;
-        justify-content: space-evenly;
-    }
-    .cardHeb{
-        background-color: white;
-        display: inline-block;
-        padding: 5px;
-        border-radius: 20px;
-        width: 236px;
-        margin-bottom: 30px;        
-    }
-    .imgHeb {
-        width: 236px;
-        height: 114px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        object-fit: cover;
-        }
-        .font {
-            font-weight: bold;
-        }
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.3);
+}
+.imgHeb {
+  width: 236px;
+  height: 114px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+.font {
+  font-weight: bold;
+}
 .divPop {
-    background-color: #F2F2F2;
-    padding: 30px;
-    border-radius: 20px;
-    display: inline-block;
-    max-width: 420px;
-    max-height: 640px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  max-width: 420px;
+  max-height: 640px;
+}
+a.fill-div {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: black;
 }
 .cardPop {
-    display: flex;
-    flex-direction: row;
-    max-width: 343px;
-    height: 144px;
-    background-color: white;
-    border-radius: 20px;
-    padding-left: 5px;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  max-width: 343px;
+  height: 144px;
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 8px;
+  margin-bottom: 50px;
+
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: black;
 }
 .imgPop {
-    width: 127px;
-    height: 135px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    object-fit: cover;
-align-self:center;
-margin-right: 8px;
+  width: 127px;
+  height: 125px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  object-fit: cover;
+  align-self: center;
+  margin-right: 8px;
 }
 .flexPop {
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    height: 625px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 625px;
 }
 .flexAct {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .imgActL {
-    width: 302px;
-    height: 390px;
-    object-fit: cover;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+  width: 302px;
+  height: 390px;
+  object-fit: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 .imgActPL {
-    width: 302px;
-    height: 181px;
-    object-fit: cover;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+  width: 302px;
+  height: 181px;
+  object-fit: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 .imgActPM {
-    width: 302px;
-    height: 140px;
-    object-fit: cover;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+  width: 302px;
+  height: 140px;
+  object-fit: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 .imgActPP {
-    width: 302px;
-    height: 109px;
-    object-fit: cover;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+  width: 302px;
+  height: 109px;
+  object-fit: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 .flexActP {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flexActP2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .cardAct {
-    border-radius: 20px;
-    -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.5);
--moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.5);
-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.5);
+  border-radius: 20px;
+
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.3);
 }
 
 .cardAct h3 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .actT {
-margin-top: 50px;
-margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
-        .divFooter {
-            vertical-align: top;
-            margin-right: 250px;
-        }
+.divFooter {
+  vertical-align: top;
+  margin-right: 250px;
+}
+
+@media screen and (max-width: 1374px) {
+  .section {
+    display: block;
+    margin-top: 30px;
+  }
+  .hebMarseille {
+    display: block;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .divPop {
+    display: block;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-top: 40px;
+  }
+  .flexPop {
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  a.cardPop {
+    width: 400px;
+  }
+  .flexAct {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1305px) {
+  .hebMarseille {
+    max-width: 90%;
+  }
+  .divPop {
+    max-width: 90%;
+    padding-bottom: 0px;
+  }
+  .flexActP2 {
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-evenly;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .flexAct {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .cardAct {
+    margin-top: 30px;
+  }
+  .flexHeb {
+    width: 100%;
+  }
+  .hebMarseille {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+  main {
+    padding: 0px;
+  }
+  .cardHeb {
+    width: 400px;
+  }
+  .imgHeb {
+    width: 400px;
+  }
+  .cardPop {
+    width: 500px;
+    max-width: 100%;
+  }
+  .cardAct {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .divFooter {
+    margin-right: 100px;
+  }
+  .cardHeb {
+    width: 300px;
+  }
+  .imgHeb {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+    header {
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+  footer {
+    flex-direction: column;
+  }
+  .navBarItem {
+    justify-content: space-evenly;
+    position: static;
+    align-items: baseline;
+  }
+  .navAH {
+    padding: 10px;
+    border-bottom: #0065fc 2px solid;
+    border-top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .navA {
+    padding: 10px;
+    border-bottom: #f2f2f2 2px solid;
+    border-top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .hebMarseille {
+    background-color: white;
+    position: relative;
+    top: 650px;
+  }
+  .divPop {
+    position: relative;
+    bottom: 1880px;
+    border-radius: 0px;
+  }
+  .cardHeb {
+    width: 90%;
+  }
+  .imgHeb {
+    width: 100%;
+  }
+  .flexAct {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .cardAct {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .imgActL {
+    height: 120px;
+    width: 100%;
+  }
+  .imgActPL {
+    height: 120px;
+    width: 100%;
+  }
+  .imgActPM {
+    height: 120px;
+    width: 100%;
+  }
+  .imgActPP {
+    height: 120px;
+    width: 100%;
+  }
+
+  .flexActP {
+    display: block;
+  }
+  .flexActP2 {
+    display: block;
+  }
+}
