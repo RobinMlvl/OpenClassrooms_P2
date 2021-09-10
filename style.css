@@ -1,6 +1,25 @@
 body {
-    padding: 50px;
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+header {    
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+main {
+    padding: 50px;
+    padding-top: 0px;
+}
+
+footer {
+    background-color: #F2F2F2;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-content: flex-start;
 }
 
 .navBar {
@@ -87,3 +106,156 @@ body {
         font-weight: bold;
         vertical-align: middle;     
     }
+    .logoInformation {
+        height: 12px;
+        width: 12px;
+        display: inline-block;
+        border: solid 1px #F2F2F2;
+        border-radius: 24px;
+        padding: 5px;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    .infoP {
+        display: inline-block;
+    }
+    .section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .hebMarseille {
+        background-color: #F2F2F2;
+        padding: 30px;
+        border-radius: 20px;
+        display: inline-block;
+        max-width: 800px;
+        vertical-align: top;
+        max-height: 640px;
+    }
+    .star {
+        width: 16px;
+    }
+    .chart {
+        width: 25px;
+    }
+    .lesP {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .flexHeb {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+    }
+    .cardHeb{
+        background-color: white;
+        display: inline-block;
+        padding: 5px;
+        border-radius: 20px;
+        width: 236px;
+        margin-bottom: 30px;        
+    }
+    .imgHeb {
+        width: 236px;
+        height: 114px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+        }
+        .font {
+            font-weight: bold;
+        }
+.divPop {
+    background-color: #F2F2F2;
+    padding: 30px;
+    border-radius: 20px;
+    display: inline-block;
+    max-width: 420px;
+    max-height: 640px;
+}
+.cardPop {
+    display: flex;
+    flex-direction: row;
+    max-width: 343px;
+    height: 144px;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 5px;
+    margin-bottom: 50px;
+}
+.imgPop {
+    width: 127px;
+    height: 135px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    object-fit: cover;
+align-self:center;
+margin-right: 8px;
+}
+.flexPop {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    height: 625px;
+}
+.flexAct {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imgActL {
+    width: 302px;
+    height: 390px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.imgActPL {
+    width: 302px;
+    height: 181px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.imgActPM {
+    width: 302px;
+    height: 140px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.imgActPP {
+    width: 302px;
+    height: 109px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.flexActP {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cardAct {
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.5);
+}
+
+.cardAct h3 {
+    margin-left: 10px;
+}
+
+.actT {
+margin-top: 50px;
+margin-bottom: 30px;
+}
+
+        .divFooter {
+            vertical-align: top;
+            margin-right: 250px;
+        }
